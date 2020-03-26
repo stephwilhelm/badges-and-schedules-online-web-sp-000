@@ -14,6 +14,6 @@ def assign_rooms (attendees)
   room_assignments = ["1-7"]
 
   attendees.each do |attendee|
-    prints "Hello, #{attendee}! You'll be assigned to room #{room_assignment}!"
+    prints "Hello, #{attendee}! You'll be assigned to room #{room_assignments}!"
   end
 end
